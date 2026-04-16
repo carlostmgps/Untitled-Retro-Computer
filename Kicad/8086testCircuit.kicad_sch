@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2c523d3e-2011-4584-b276-b8b67dcb79f5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.66 80.01)
+		(size 34.29 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d0e18c6-bce0-48f8-821e-a29c67f31b18")
+		(property "Sheetname" "CPU"
+			(at 73.66 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 73.66 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "8086testCircuit"
+				(path "/2c523d3e-2011-4584-b276-b8b67dcb79f5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 46.99)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a54df712-fd98-404d-b8a5-1ee8b8f9a694")
+		(property "Sheetname" "Clock"
+			(at 88.9 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clock.kicad_sch"
+			(at 88.9 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "READY" bidirectional
+			(at 91.44 46.99 90)
+			(uuid "62676cf8-dd47-43b5-84d2-d129a056f3ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" bidirectional
+			(at 93.98 46.99 90)
+			(uuid "d46769c3-148f-4c2e-afba-49c6637885ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCLK" bidirectional
+			(at 96.52 46.99 90)
+			(uuid "7d1afde0-4b96-405b-9d5d-4552e516398a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" bidirectional
+			(at 99.06 46.99 90)
+			(uuid "db674511-fa82-4865-b729-35250f2f88d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "!RES" bidirectional
+			(at 101.6 46.99 90)
+			(uuid "b6c9c3d3-6d91-4a64-b45d-6c4b5ecf13a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSC" bidirectional
+			(at 104.14 46.99 90)
+			(uuid "5f09e220-63e5-4d5b-9bf9-cf258caee930")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "8086testCircuit"
+				(path "/2c523d3e-2011-4584-b276-b8b67dcb79f5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
